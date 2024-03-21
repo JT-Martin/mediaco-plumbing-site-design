@@ -28,9 +28,9 @@ export default function Home() {
           <div className="-skew-x-12 border-l border-r">
             <div className="flex skew-x-12 items-center justify-between gap-3 px-8 py-3 font-light">
               <div className="text-xs text-gray-50">{"We're Available"}</div>
-              <div className="relative">
-                <div className="absolute size-2.5 rounded-full bg-green-600"></div>
-                <div className="relative size-2.5 animate-ping rounded-full bg-green-500 opacity-75"></div>
+              <div className="relative shrink-0">
+                <div className="absolute size-2 shrink-0 rounded-full bg-green-600"></div>
+                <div className="relative size-2 shrink-0 animate-ping rounded-full bg-green-500 opacity-75"></div>
               </div>
               <Time />
             </div>
