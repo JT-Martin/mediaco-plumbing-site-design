@@ -27,7 +27,7 @@ export default function Home() {
           </div>
           <div className="-skew-x-12 border-l border-r">
             <div className="flex skew-x-12 items-center justify-between gap-3 px-8 py-3 font-light">
-              <div className="text-xs text-gray-50">We're Available</div>
+              <div className="text-xs text-gray-50">{"We're Available"}</div>
               <div className="relative">
                 <div className="absolute size-2.5 rounded-full bg-green-600"></div>
                 <div className="relative size-2.5 animate-ping rounded-full bg-green-500 opacity-75"></div>
@@ -52,10 +52,12 @@ export default function Home() {
       <div className="relative flex h-[700px] w-full flex-col justify-center bg-gray-900">
         <Image
           src={sinkPlumber}
+          alt="sink plumber"
           className="absolute left-0 h-full object-cover object-left brightness-[0.3]"
         />
         <Image
           src={technician}
+          alt="technician"
           className="absolute right-0 z-10 h-full w-full object-contain object-right-top"
         />
         <div className="flex flex-col gap-6 pl-20">
